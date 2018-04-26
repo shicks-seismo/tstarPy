@@ -5,7 +5,7 @@ import numpy as np
 import obspy.taup
 
 
-def waveform_corrections(mod_name, dist, z_src, phase):
+def correct(mod_name, dist, z_src, phase):
     """
     Inputs:
         - mod_name = name of velocity model (e.g. iasp91)
